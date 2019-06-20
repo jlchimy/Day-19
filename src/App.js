@@ -6,18 +6,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          Enter your email:
+          <input type="text" placeholder="Email"></input>
+        </div>
+        <div>
+          Enter your password:
+          <input type="password" placeholder="Password"></input>
+        </div>
+        <div>
+          <button>
+            Login
+          </button>
+        </div>
       </header>
     </div>
   );
