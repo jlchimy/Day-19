@@ -19,13 +19,17 @@ function App() {
           <input type="password" placeholder="Password"></input>
         </div>
         <div>
-          <button>
+          <button onClick="login()">
             Login
           </button>
         </div>
       </header>
     </div>
   );
+}
+
+function login() {
+  
 }
 
 export default App;
